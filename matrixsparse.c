@@ -1,7 +1,7 @@
 #include<stdio.h>
-	struct sparsematrix
-		{
-     int r;
+struct sparsematrix
+{
+    int r;
      int c;
      int v;
 		}sp[50];
