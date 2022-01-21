@@ -1,5 +1,4 @@
-/*
-Conversion of Expression from infix to postfix
+/*CIRCULAR QUEUE USING ARRAY
 Jaidon Gill Shajan
 039
 Artifical Intelligence & Data Science
@@ -9,7 +8,7 @@ Artifical Intelligence & Data Science
 #define SIZE 50
 
 char s[SIZE];
-int top=-1;
+int top= -1;
 
 void push(char e)
  {
@@ -87,12 +86,8 @@ int main()
  {
   char in[100];
   char pf[100];
-  int no;
-  printf("Enter total number of varibles and operations\n");
-  scanf("%d",&no);
   printf("Enter the Infix Expression: ");
-  for(int i=0;i<no;i++)
-     scanf("%c",&in[i]);
-  convert(in,pf);
-  printf("Postfix Expn: %s\n",pf);
+  gets (in);
+  convert(in, pf);
+  printf("Postfix Expn: %s\n", pf);
  }
