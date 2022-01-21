@@ -78,7 +78,7 @@
 			else if(t>0)
 				{
 					printf("The elements of the stack are:\n");
-					for(i=t;i>=0;i--) // top to bottom traversal
+					for(i=t;i>=0;i--)
 						{
 							printf("%d\n",stack[i]);
 						}
