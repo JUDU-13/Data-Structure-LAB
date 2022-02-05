@@ -1,4 +1,4 @@
-/*CIRCULAR QUEUE USING ARRAY
+/*INFIX TO POSTFIX
 Jaidon Gill Shajan
 039
 Artifical Intelligence & Data Science
