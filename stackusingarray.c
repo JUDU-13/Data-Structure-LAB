@@ -44,7 +44,7 @@
 		{
 			if(t==LIMIT-1)
 				{
-					printf("Stack underflow\n");
+					printf("Stack overflow\n");
 				}
 			else
 				{
